@@ -1,0 +1,58 @@
+{
+  "name": "@xxgjzftd/gulp-universal-tasks",
+  "version": "1.0.0",
+  "description": "gulp universal tasks",
+  "main": "/lib/index.js",
+  "types": "/lib/types/index",
+  "files": [
+    "/lib/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp watch",
+    "build": "gulp build",
+    "release": "gulp release && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxgjzftd/gulp-universal-tasks.git"
+  },
+  "keywords": [
+    "gulp",
+    "universal",
+    "tasks"
+  ],
+  "author": "xxgjzftd <xxgjzftd@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxgjzftd/gulp-universal-tasks/issues"
+  },
+  "homepage": "https://github.com/xxgjzftd/gulp-universal-tasks#readme",
+  "devDependencies": {
+    "@types/del": "^3.0.1",
+    "@types/gulp-sourcemaps": "0.0.32",
+    "@types/merge2": "^1.1.4",
+    "gulp": "^4.0.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/gulp": "^4.0.5",
+    "@types/gulp-bump": "^2.8.0",
+    "@types/minimist": "^1.2.0",
+    "@types/pify": "^3.0.2",
+    "del": "^3.0.0",
+    "gulp-bump": "^3.1.1",
+    "gulp-git": "^2.8.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^5.0.0",
+    "merge2": "^1.2.3",
+    "minimist": "^1.2.0",
+    "pify": "^4.0.1"
+  },
+  "peerDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
