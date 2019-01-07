@@ -2,8 +2,8 @@
   "name": "@xxgjzftd/gulp-universal-tasks",
   "version": "1.0.0",
   "description": "gulp universal tasks",
-  "main": "/lib/index.js",
-  "types": "/lib/types/index",
+  "main": "lib/index.js",
+  "types": "lib/types/index",
   "files": [
     "/lib/"
   ],
